@@ -18,601 +18,300 @@ vim.api.nvim_create_autocmd("BufEnter", {
     )
     vim.api.nvim_buf_set_extmark(1, ns, 1, 20, {
       end_col = 25,
-      hl_group = "@lsp.mod.declaration.javascript",
-      priority = 126,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 1, 20, {
       end_col = 25,
-      hl_group = "@lsp.typemod.parameter.declaration.javascript",
-      priority = 127,
-      strict = false
-    })
-
-
-    vim.api.nvim_buf_set_extmark(1, ns, 1, 27, {
-      end_col = 34,
-      hl_group = "@lsp.type.parameter.javascript",
-      priority = 125,
-      strict = false
-    })
-
-
-    vim.api.nvim_buf_set_extmark(1, ns, 1, 27, {
-      end_col = 34,
-      hl_group = "@lsp.mod.declaration.javascript",
-      priority = 126,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 1, 27, {
       end_col = 34,
-      hl_group = "@lsp.typemod.parameter.declaration.javascript",
-      priority = 127,
-      strict = false
+    })
+    vim.api.nvim_buf_set_extmark(1, ns, 1, 27, {
+      end_col = 34,
+    })
+    vim.api.nvim_buf_set_extmark(1, ns, 1, 27, {
+      end_col = 34,
     })
     vim.api.nvim_buf_set_extmark(1, ns, 1, 36, {
       end_col = 44,
-      hl_group = "@lsp.type.parameter.javascript",
-      priority = 125,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 1, 36, {
       end_col = 44,
-      hl_group = "@lsp.mod.declaration.javascript",
-      priority = 126,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 1, 36, {
       end_col = 44,
-      hl_group = "@lsp.typemod.parameter.declaration.javascript",
-      priority = 127,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 2, 6, {
       end_col = 11,
-      hl_group = "@lsp.type.parameter.javascript",
-      priority = 125,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 2, 16, {
       end_col = 21,
-      hl_group = "@lsp.type.parameter.javascript",
-      priority = 125,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 2, 34, {
       end_col = 39,
-      hl_group = "@lsp.type.parameter.javascript",
-      priority = 125,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 3, 10, {
       end_col = 18,
-      hl_group = "@lsp.type.function.javascript",
-      priority = 125,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 5, 8, {
       end_col = 15,
-      hl_group = "@lsp.mod.local.javascript",
-      priority = 126,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 5, 8, {
       end_col = 15,
-      hl_group = "@lsp.typemod.variable.local.javascript",
-      priority = 127,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 5, 8, {
       end_col = 15,
-      hl_group = "@lsp.mod.declaration.javascript",
-      priority = 126,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 5, 8, {
       end_col = 15,
-      hl_group = "@lsp.typemod.variable.declaration.javascript",
-      priority = 127,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 5, 8, {
       end_col = 15,
-      hl_group = "@lsp.mod.readonly.javascript",
-      priority = 126,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 5, 8, {
       end_col = 15,
-      hl_group = "@lsp.typemod.variable.readonly.javascript",
-      priority = 127,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 5, 18, {
       end_col = 23,
-      hl_group = "@lsp.type.parameter.javascript",
-      priority = 125,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 6, 8, {
       end_col = 15,
-      hl_group = "@lsp.type.variable.javascript",
-      priority = 125,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 6, 8, {
       end_col = 15,
-      hl_group = "@lsp.mod.local.javascript",
-      priority = 126,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 6, 8, {
       end_col = 15,
-      hl_group = "@lsp.typemod.variable.local.javascript",
-      priority = 127,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 6, 8, {
       end_col = 15,
-      hl_group = "@lsp.mod.declaration.javascript",
-      priority = 126,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 6, 8, {
       end_col = 15,
-      hl_group = "@lsp.typemod.variable.declaration.javascript",
-      priority = 127,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 6, 8, {
       end_col = 15,
-      hl_group = "@lsp.mod.readonly.javascript",
-      priority = 126,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 6, 8, {
       end_col = 15,
-      hl_group = "@lsp.typemod.variable.readonly.javascript",
-      priority = 127,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 6, 18, {
       end_col = 25,
-      hl_group = "@lsp.type.variable.javascript",
-      priority = 125,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 6, 18, {
       end_col = 25,
-      hl_group = "@lsp.mod.readonly.javascript",
-      priority = 126,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 6, 18, {
       end_col = 25,
-      hl_group = "@lsp.typemod.variable.readonly.javascript",
-      priority = 127,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 6, 18, {
       end_col = 25,
-      hl_group = "@lsp.mod.local.javascript",
-      priority = 126,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 6, 18, {
       end_col = 25,
-      hl_group = "@lsp.typemod.variable.local.javascript",
-      priority = 127,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 7, 58, {
       end_col = 65,
-      hl_group = "@lsp.type.variable.javascript",
-      priority = 125,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 7, 58, {
       end_col = 65,
-      hl_group = "@lsp.mod.readonly.javascript",
-      priority = 126,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 7, 58, {
       end_col = 65,
-      hl_group = "@lsp.typemod.variable.readonly.javascript",
-      priority = 127,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 7, 58, {
       end_col = 65,
-      hl_group = "@lsp.mod.local.javascript",
-      priority = 126,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 7, 58, {
       end_col = 65,
-      hl_group = "@lsp.typemod.variable.local.javascript",
-      priority = 127,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 8, 6, {
       end_col = 11,
-      hl_group = "@lsp.type.variable.javascript",
-      priority = 125,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 8, 6, {
       end_col = 11,
-      hl_group = "@lsp.mod.declaration.javascript",
-      priority = 126,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 8, 6, {
       end_col = 11,
-      hl_group = "@lsp.typemod.variable.declaration.javascript",
-      priority = 127,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 8, 6, {
       end_col = 11,
-      hl_group = "@lsp.mod.local.javascript",
-      priority = 126,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 8, 6, {
       end_col = 11,
-      hl_group = "@lsp.typemod.variable.local.javascript",
-      priority = 127,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 9, 5, {
       end_col = 12,
-      hl_group = "@lsp.type.variable.javascript",
-      priority = 125,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 9, 5, {
       end_col = 12,
-      hl_group = "@lsp.mod.readonly.javascript",
-      priority = 126,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 9, 5, {
       end_col = 12,
-      hl_group = "@lsp.typemod.variable.readonly.javascript",
-      priority = 127,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 9, 5, {
       end_col = 12,
-      hl_group = "@lsp.mod.local.javascript",
-      priority = 126,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 9, 5, {
       end_col = 12,
-      hl_group = "@lsp.typemod.variable.local.javascript",
-      priority = 127,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 9, 23, {
       end_col = 28,
-      hl_group = "@lsp.type.variable.javascript",
-      priority = 125,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 9, 23, {
       end_col = 28,
-      hl_group = "@lsp.mod.local.javascript",
-      priority = 126,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 9, 23, {
       end_col = 28,
-      hl_group = "@lsp.typemod.variable.local.javascript",
-      priority = 127,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 10, 7, {
       end_col = 15,
-      hl_group = "@lsp.type.variable.javascript",
-      priority = 125,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 10, 7, {
       end_col = 15,
-      hl_group = "@lsp.mod.declaration.javascript",
-      priority = 126,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 10, 7, {
       end_col = 15,
-      hl_group = "@lsp.typemod.variable.declaration.javascript",
-      priority = 127,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 10, 7, {
       end_col = 15,
-      hl_group = "@lsp.mod.local.javascript",
-      priority = 126,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 10, 7, {
       end_col = 15,
-      hl_group = "@lsp.typemod.variable.local.javascript",
-      priority = 127,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 10, 18, {
       end_col = 25,
-      hl_group = "@lsp.type.variable.javascript",
-      priority = 125,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 10, 18, {
       end_col = 25,
-      hl_group = "@lsp.mod.readonly.javascript",
-      priority = 126,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 10, 18, {
       end_col = 25,
-      hl_group = "@lsp.typemod.variable.readonly.javascript",
-      priority = 127,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 10, 18, {
       end_col = 25,
-      hl_group = "@lsp.mod.local.javascript",
-      priority = 126,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 10, 18, {
       end_col = 25,
-      hl_group = "@lsp.typemod.variable.local.javascript",
-      priority = 127,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 10, 36, {
       end_col = 41,
-      hl_group = "@lsp.type.variable.javascript",
-      priority = 125,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 10, 36, {
       end_col = 41,
-      hl_group = "@lsp.mod.local.javascript",
-      priority = 126,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 10, 36, {
       end_col = 41,
-      hl_group = "@lsp.typemod.variable.local.javascript",
-      priority = 127,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 11, 3, {
       end_col = 10,
-      hl_group = "@lsp.type.variable.javascript",
-      priority = 125,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 11, 3, {
       end_col = 10,
-      hl_group = "@lsp.mod.readonly.javascript",
-      priority = 126,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 11, 3, {
       end_col = 10,
-      hl_group = "@lsp.typemod.variable.readonly.javascript",
-      priority = 127,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 11, 3, {
       end_col = 10,
-      hl_group = "@lsp.mod.local.javascript",
-      priority = 126,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 11, 3, {
       end_col = 10,
-      hl_group = "@lsp.typemod.variable.local.javascript",
-      priority = 127,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 11, 17, {
       end_col = 24,
-      hl_group = "@lsp.type.variable.javascript",
-      priority = 125,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 11, 17, {
       end_col = 24,
-      hl_group = "@lsp.mod.readonly.javascript",
-      priority = 126,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 11, 17, {
       end_col = 24,
-      hl_group = "@lsp.typemod.variable.readonly.javascript",
-      priority = 127,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 11, 17, {
       end_col = 24,
-      hl_group = "@lsp.mod.local.javascript",
-      priority = 126,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 11, 17, {
       end_col = 24,
-      hl_group = "@lsp.typemod.variable.local.javascript",
-      priority = 127,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 11, 37, {
       end_col = 42,
-      hl_group = "@lsp.type.variable.javascript",
-      priority = 125,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 11, 37, {
       end_col = 42,
-      hl_group = "@lsp.mod.local.javascript",
-      priority = 126,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 11, 37, {
       end_col = 42,
-      hl_group = "@lsp.typemod.variable.local.javascript",
-      priority = 127,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 12, 6, {
       end_col = 13,
-      hl_group = "@lsp.type.variable.javascript",
-      priority = 125,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 12, 6, {
       end_col = 13,
-      hl_group = "@lsp.mod.readonly.javascript",
-      priority = 126,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 12, 6, {
       end_col = 13,
-      hl_group = "@lsp.typemod.variable.readonly.javascript",
-      priority = 127,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 12, 6, {
       end_col = 13,
-      hl_group = "@lsp.mod.local.javascript",
-      priority = 126,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 12, 6, {
       end_col = 13,
-      hl_group = "@lsp.typemod.variable.local.javascript",
-      priority = 127,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 12, 29, {
       end_col = 36,
-      hl_group = "@lsp.type.variable.javascript",
-      priority = 125,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 12, 29, {
       end_col = 36,
-      hl_group = "@lsp.mod.readonly.javascript",
-      priority = 126,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 12, 29, {
       end_col = 36,
-      hl_group = "@lsp.mod.local.javascript",
-      priority = 126,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 12, 29, {
       end_col = 36,
-      hl_group = "@lsp.typemod.variable.local.javascript",
-      priority = 127,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 13, 4, {
       end_col = 11,
-      hl_group = "@lsp.type.variable.javascript",
-      priority = 125,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 13, 4, {
       end_col = 11,
-      hl_group = "@lsp.mod.readonly.javascript",
-      priority = 126,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 13, 4, {
       end_col = 11,
-      hl_group = "@lsp.typemod.variable.readonly.javascript",
-      priority = 127,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 13, 4, {
       end_col = 11,
-      hl_group = "@lsp.mod.local.javascript",
-      priority = 126,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 13, 4, {
       end_col = 11,
-      hl_group = "@lsp.typemod.variable.local.javascript",
-      priority = 127,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 13, 41, {
       end_col = 49,
-      hl_group = "@lsp.type.variable.javascript",
-      priority = 125,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 13, 41, {
       end_col = 49,
-      hl_group = "@lsp.mod.local.javascript",
-      priority = 126,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 13, 41, {
       end_col = 49,
-      hl_group = "@lsp.typemod.variable.local.javascript",
-      priority = 127,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 15, 4, {
       end_col = 11,
-      hl_group = "@lsp.type.variable.javascript",
-      priority = 125,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 15, 4, {
       end_col = 11,
-      hl_group = "@lsp.mod.readonly.javascript",
-      priority = 126,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 15, 4, {
       end_col = 11,
-      hl_group = "@lsp.typemod.variable.readonly.javascript",
-      priority = 127,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 15, 4, {
       end_col = 11,
-      hl_group = "@lsp.mod.local.javascript",
-      priority = 126,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 15, 4, {
       end_col = 11,
-      hl_group = "@lsp.typemod.variable.local.javascript",
-      priority = 127,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 15, 39, {
       end_col = 47,
-      hl_group = "@lsp.type.variable.javascript",
-      priority = 125,
-      strict = false
     })
     vim.api.nvim_buf_set_extmark(1, ns, 15, 39, {
       end_col = 47,
-      hl_group = "@lsp.mod.local.javascript",
-      priority = 126,
-      strict = false
     })
   end,
 })
