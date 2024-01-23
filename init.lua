@@ -94,12 +94,6 @@ vim.api.nvim_create_autocmd("BufEnter", {
     })
     vim.api.nvim_buf_set_extmark(1, ns, 5, 8, {
       end_col = 15,
-      hl_group = "@lsp.type.variable.javascript",
-      priority = 125,
-      strict = false
-    })
-    vim.api.nvim_buf_set_extmark(1, ns, 5, 8, {
-      end_col = 15,
       hl_group = "@lsp.mod.local.javascript",
       priority = 126,
       strict = false
